@@ -134,9 +134,6 @@ function addTodo(todo) {
         }
         let result = res.toString()
         leftItems.innerHTML = result
-    
-        console.log(todosUL.childElementCount)
-
         
         input.value = ''
         updateLS()
