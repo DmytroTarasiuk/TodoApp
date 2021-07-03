@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script> 
+  <title>Todo app</title>
+</head>
+<body>
+  <div class="image-cotainer">
+    <img src="images/bg-desktop-light.jpg" class="light-img" alt="background">
+    <img src="images/bg-desktop-dark.jpg" class="dark-img" alt="background">
+  </div>
+
+  <div class="main">
+    <header class="header">
+      <h1>Todo</h1>
+      <img src="images/icon-moon.svg" class="moon-icon" alt="moon"> 
+      <img src="images/icon-sun.svg" class="sun-icon" alt="moon">
+    </header>
+  
+    <form id="form">
+      <input type="text" class="input dark" id="input" placeholder="Create a new todo..." autocomplete="off">
+      <ul class="todos dark" id="todos" max="5">
+        
+      </ul>
+      <div class="counter">
+        <div class="remain-items">
+          <span><span class="item-left">5</span> items left</span>
+        </div>
+        <div class="clear">
+          <span>Clear completed</span>
+        </div>
+      </div>
+      <div class="todo-nav">
+        <div class="nav-item all selected">All</div>
+        <div class="nav-item active">Active</div>
+        <div class="nav-item complete">Completed</div>
+      </div>
+    </form>
+    <small>Click on circle to toggle completed. <br> Click on cross-icon to delete todo</small>
+    
+  </div>
+  
+
+</body>
+</html>
